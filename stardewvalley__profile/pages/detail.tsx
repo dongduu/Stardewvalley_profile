@@ -1,3 +1,10 @@
+import Seo from "../components/Seo";
+
 export default function Detail() {
-  return "detail";
+  return (
+    <>
+      <Seo title="About" />
+      "detail"
+    </>
+  );
 }
