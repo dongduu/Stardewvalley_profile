@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import styles from "../styles/NavBar.module.scss";
 
 export default function NavBar() {
   const router = useRouter();
@@ -14,13 +15,31 @@ export default function NavBar() {
       </Link>
       <div>
         <Link href="/">
-          <a>Home</a>
+          <a
+            className={`${styles.link} ${
+              router.pathname === "/" ? styles.active : ""
+            }`}
+          >
+            Home
+          </a>
         </Link>
         <Link href="/detail">
-          <a>Detail</a>
+          <a
+            className={`${styles.link} ${
+              router.pathname === "/detail" ? styles.active : ""
+            }`}
+          >
+            Detail
+          </a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a
+            className={`${styles.link} ${
+              router.pathname === "/about" ? styles.active : ""
+            }`}
+          >
+            About
+          </a>
         </Link>
         <Link href="https://www.stardewvalley.net/blog/">
           <a>
