@@ -1,6 +1,38 @@
-.link {
-  color: black;
+.box {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
+
+.link {
+  font-weight: 600;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.699);
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .active {
   color: white;
+}
+
+.item {
+  display: flex;
+  gap: 45px;
+  justify-items: center;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.homepage {
+  height: 50px;
+  margin-top: 22px;
 }
