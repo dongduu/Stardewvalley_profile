@@ -1,6 +1,6 @@
 import styles from "../styles/Character.module.scss";
 
-export default function Character() {
+export default function ProfileCard() {
   return (
     <div className={styles.box}>
       <div>
