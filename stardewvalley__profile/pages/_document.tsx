@@ -10,6 +10,11 @@ class MyDocument extends Document {
             rel="stylesheet"
             type="text/css"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Nunito"
+            rel="stylesheet"
+            type="text/css"
+          />
         </Head>
         <body>
           <Main />
