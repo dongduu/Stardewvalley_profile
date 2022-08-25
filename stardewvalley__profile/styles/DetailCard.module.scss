@@ -1,0 +1,37 @@
+.box {
+  background-color: #ffffcc;
+  margin: 0 auto;
+  width: max-content;
+  font-family: "Nunito";
+  padding: 20px 50px 20px 50px;
+  border-radius: 18px;
+  border: 10px solid transparent;
+  border-image: url("https://stardewvalley.net/wp-content/uploads/2017/12/menu_border_noshadowtopleft.png")
+    25% stretch;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 70px;
+}
+
+.name {
+  font-size: 40px;
+  text-shadow: 0px 2px 1px #d5864f;
+  text-align: center;
+  border: 6px solid transparent;
+  border-image: url("https://forums.stardewvalley.net/styles/classic/scrollborder.png")
+    24 fill repeat;
+  border-image-width: 24px;
+  border-image-outset: 6px;
+}
+
+.section {
+  background-color: #fff0ba;
+}
+
+.section__name {
+  color: #663300;
+}

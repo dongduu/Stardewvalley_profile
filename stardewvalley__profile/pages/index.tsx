@@ -6,6 +6,9 @@ export default function Home() {
     <>
       <Seo title="Home" />
       <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
+      <ProfileCard />
     </>
   );
 }
