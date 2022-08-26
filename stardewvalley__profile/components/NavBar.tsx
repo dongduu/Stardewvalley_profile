@@ -33,6 +33,15 @@ export default function NavBar() {
             Detail
           </a>
         </Link>
+        <Link href="/secretNote">
+          <a
+            className={`${styles.link} ${
+              router.pathname === "/secretNote" ? styles.active : ""
+            }`}
+          >
+            SecretNote
+          </a>
+        </Link>
         <Link href="/about">
           <a
             className={`${styles.link} ${
