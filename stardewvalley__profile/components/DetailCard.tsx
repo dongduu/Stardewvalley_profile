@@ -5,18 +5,23 @@ export default function DetailCard() {
     <div className={styles.box}>
       <h2 className={styles.name}>Harvey</h2>
       <div className={styles.profile}>
-        <ul>
-          <li>brith: 14 winter</li>
-          <li>job: doctor</li>
-          <li>family: X</li>
-          <li>friends: Maru</li>
+        <ul className={styles.ul}>
+          <li className={styles.li}>brith: 14 winter</li>
+          <li className={styles.li}>job: doctor</li>
+          <li className={styles.li}>family: X</li>
+          <li className={styles.li}>friends: Maru</li>
         </ul>
-        <img src="https://w.namu.la/s/2f015d5f3bef253a62c2c1c7597afc0250e1afb58fb35706be401b14b28160cb8913a14d3f757ce4dc43158eb43254ad468559ff2d2bebe2d29e97632256b30836872a84af4aeb2ebff7cc2334ead4c432a6f3063147020b4bf98e7776e7ef6f" />
+        <img
+          className={styles.img}
+          src="https://w.namu.la/s/2f015d5f3bef253a62c2c1c7597afc0250e1afb58fb35706be401b14b28160cb8913a14d3f757ce4dc43158eb43254ad468559ff2d2bebe2d29e97632256b30836872a84af4aeb2ebff7cc2334ead4c432a6f3063147020b4bf98e7776e7ef6f"
+        />
       </div>
+
+      <hr />
 
       <section className={styles.section}>
         <h3 className={styles.section__name}>사랑하는 선물</h3>
-        <ul>
+        <ul className={styles.section__context}>
           <li>커피</li>
           <li>피클</li>
           <li>토끼발</li>

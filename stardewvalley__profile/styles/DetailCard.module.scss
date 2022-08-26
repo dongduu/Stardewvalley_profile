@@ -28,10 +28,32 @@
   border-image-outset: 6px;
 }
 
+.img {
+  height: 250px;
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.671);
+  margin-left: 250px;
+}
+
+.ul {
+  margin: auto 0;
+  padding-bottom: 50px;
+}
+
+.li {
+  font-size: 28px;
+  padding: 10px;
+}
+
 .section {
   background-color: #fff0ba;
 }
 
 .section__name {
   color: #663300;
+  font-size: 28px;
+}
+
+.section__context {
+  font-size: 22px;
 }
