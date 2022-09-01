@@ -1,33 +1,46 @@
 .box {
   padding: 25px;
-  background-color: #fff0ba;
+  max-width: 1188px;
+  background-color: #ffffcc;
   border-radius: 18px;
   border: 10px solid transparent;
   border-image: url("https://stardewvalley.net/wp-content/uploads/2017/12/menu_border_noshadowtopleft.png")
     25% stretch;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  width: 1190px;
-  height: 100px;
+  margin: 0px auto 10px;
 }
 
 .form {
-  margin: 0 auto;
+  position: relative;
 }
 
 .input {
-  width: 80%;
-  height: 50px;
-  padding: 6px;
+  font-size: 22px;
   background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #5a3b32;
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 16px;
+  height: 35px;
+  color: #5a3b32;
+  width: 100%;
+  font-weight: 500;
+  display: block;
 }
 
 .button {
-  width: 150px;
-  height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
   background: #5a3b32;
   color: #ffffcc;
   font-weight: 600;
-  font-size: 18px;
-  padding: 6px;
+  width: 150px;
+  height: 35px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  display: inline-block;
+  border: none;
+  transition: color 0.2s, background 0.2s;
 }
