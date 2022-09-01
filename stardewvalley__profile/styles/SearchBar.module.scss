@@ -1,0 +1,33 @@
+.box {
+  padding: 25px;
+  background-color: #fff0ba;
+  border-radius: 18px;
+  border: 10px solid transparent;
+  border-image: url("https://stardewvalley.net/wp-content/uploads/2017/12/menu_border_noshadowtopleft.png")
+    25% stretch;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 1190px;
+  height: 100px;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.input {
+  width: 80%;
+  height: 50px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background: #5a3b32;
+  color: #ffffcc;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 6px;
+}
