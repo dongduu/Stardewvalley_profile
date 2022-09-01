@@ -8,13 +8,6 @@ export default function secretNote() {
       <Seo title="secretNote" />
       <div className={styles.flexBox}>
         <SecretNoteCard />
-        <SecretNoteCard />
-        <SecretNoteCard />
-        <SecretNoteCard />
-        <SecretNoteCard />
-        <SecretNoteCard />
-        <SecretNoteCard />
-        <SecretNoteCard />
       </div>
     </div>
   );
