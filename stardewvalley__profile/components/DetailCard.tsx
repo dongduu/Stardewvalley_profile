@@ -30,7 +30,7 @@ export default function DetailCard() {
 
       <section className={styles.section}>
         <h3 className={styles.section__name}>좋아하는 선물</h3>
-        <ul>
+        <ul className={styles.section__context}>
           <li>리크</li>
           <li>눈마</li>
           <li>회</li>
@@ -39,7 +39,7 @@ export default function DetailCard() {
 
       <section className={styles.section}>
         <h3 className={styles.section__name}>평범한 선물</h3>
-        <ul>
+        <ul className={styles.section__context}>
           <li>계란류</li>
           <li>우유</li>
           <li>홉</li>
@@ -48,7 +48,7 @@ export default function DetailCard() {
 
       <section className={styles.section}>
         <h3 className={styles.section__name}>싫어하는 선물</h3>
-        <ul>
+        <ul className={styles.section__context}>
           <li>빵</li>
           <li>치즈</li>
           <li>쿠키</li>
@@ -57,7 +57,7 @@ export default function DetailCard() {
 
       <section className={styles.section}>
         <h3 className={styles.section__name}>혐오하는 선물</h3>
-        <ul>
+        <ul className={styles.section__context}>
           <li>산호</li>
           <li>잉어</li>
           <li>백금향</li>

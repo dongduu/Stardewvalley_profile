@@ -1,6 +1,6 @@
 .box {
   font-family: "Nunito";
-  width: max-content;
+  max-width: max-content;
   display: flex;
   margin: 0 auto;
   margin-bottom: 20px;
@@ -32,16 +32,12 @@
 }
 
 .ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 10px;
-  column-gap: 70px;
+  width: 600px;
 }
 
 .li {
   display: block;
   font-size: 25px;
-  text-align: center;
   top: 0;
   bottom: 0;
   margin-top: auto;

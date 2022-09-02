@@ -14,13 +14,13 @@
 }
 
 .input {
-  font-size: 22px;
+  font-size: 25px;
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid #5a3b32;
   border-right: none;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  padding: 16px;
+  padding: 20px;
   height: 35px;
   color: #5a3b32;
   width: 100%;
@@ -29,7 +29,7 @@
 }
 
 .button {
-  font-size: 20px;
+  font-size: 25px;
   position: absolute;
   top: 0;
   right: 0;
@@ -37,7 +37,7 @@
   color: #ffffcc;
   font-weight: 600;
   width: 150px;
-  height: 35px;
+  height: 42px;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   display: inline-block;
