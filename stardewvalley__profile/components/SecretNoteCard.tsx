@@ -4,9 +4,9 @@ import { MdArrowLeft, MdArrowRight } from "react-icons/Md";
 export default function SecretNoteCard() {
   return (
     <>
-      <MdArrowLeft size={120} className={styles.arrow_left} />
-      <MdArrowRight size={120} className={styles.arrow_right} />
       <div className={styles.box}>
+        <MdArrowLeft size={120} className={styles.arrow_left} />
+        <MdArrowRight size={120} className={styles.arrow_right} />
         <h2 className={styles.title}>Secret Note #1</h2>
         <div className={styles.content}>
           <p className={styles.contents}>
